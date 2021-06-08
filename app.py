@@ -13,7 +13,7 @@ import string
 # initialise flask
 app = Flask(__name__, template_folder='templates')
 model = pickle.load(open('fakeNews.pkl', 'rb'))
-df = pd.read_csv('https://media.githubusercontent.com/media/nikhil-123-debug/Fake-NEWS/master/news.csv')
+df = pd.read_csv('https://media.githubusercontent.com/media/Nikhil-49947/Fake-NEWS/master/news.csv')
 
 
 
